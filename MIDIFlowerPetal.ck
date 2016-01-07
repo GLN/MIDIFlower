@@ -1,4 +1,3 @@
-
 public class MIDIFlowerPetal
 {
     // Description

@@ -4,7 +4,7 @@ MIDIFlower
 Overview
 --------
 
-MIDIFlower is a lightweight MIDI input framework for the [ChucK](http://chuck.stanford.edu/) music programming language. 
+MIDIFlower is a lightweight MIDI input framework for the [ChucK](http://chuck.stanford.edu/) music programming language.
 
 Written in ChucK, MIDIFlower listens for and routes incoming MIDI data to your ChucK instruments.
 

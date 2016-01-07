@@ -1,4 +1,3 @@
-
 public class Device
 {
     static int PORT;

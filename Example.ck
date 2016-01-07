@@ -1,4 +1,3 @@
-
 class Example extends MIDIFlowerPetal
 {
     // Respond to a MIDI Note On message.

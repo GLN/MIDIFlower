@@ -1,4 +1,3 @@
-
 public class MIDI
 {
     // channel
