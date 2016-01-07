@@ -66,7 +66,7 @@ private class _MIDIFlower
     function void _assign(MIDIFlowerPetal @instrument, int channel)
     {
         if (instrument != null) {
-            if (channel < MIDI.CHANNEL_COUNT) {
+            if (channel > -1 && channel < MIDI.CHANNEL_COUNT) {
                 this.instruments()[channel] << instrument;
             } else {
                 <<< "MIDIFlower: invalid channel", channel >>>;
