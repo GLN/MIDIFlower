@@ -24,7 +24,7 @@ In detail, and assuming use of [miniAudicle](http://chuck.stanford.edu/release/)
 - Implement the MIDI messages you wish to respond to by overriding the corresponding methods in `MIDIFlowerPetal.ck`. There are eight different MIDI messages and they're all optional.
 - Instantiate your instrument and `MIDIFlower.assign();` it to one of 16 MIDI channels. You may assign more than one instrument to the same channel for multi-timbral performance.
 - Add Shred: `initialize.ck`.
-- Add Shred: `YourInstrument.ck`.
+- Add Shred: `YourClass.ck`.
 - Play your ChucK instrument with your MIDI device!
 
 Documentation
