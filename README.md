@@ -21,13 +21,13 @@ Using MIDIFlower is simple:
 
 In detail, and assuming use of [miniAudicle](http://chuck.stanford.edu/release/):
 
-- Set your MIDI controller's port number in `Device.ck` (see miniAudicle's Device Browser for this number).
+- Set your MIDI device's port number in `Device.ck` (see miniAudicle's Device Browser for this number).
 - Create a class and inherit from `MIDIFlowerPetal.ck`.
 - Implement the MIDI messages you wish to respond to by overriding the corresponding methods in `MIDIFlowerPetal.ck`. There are eight different MIDI messages and they're all optional.
 - Instantiate your instrument and `MIDIFlower.assign();` it to one of 16 MIDI channels. You may assign more than one instrument to the same channel for multi-timbral performance.
 - Add Shred: `initialize.ck`.
 - Add Shred: `YourInstrument.ck`.
-- Play your ChucK instrument with your MIDI controller!
+- Play your ChucK instrument with your MIDI device!
 
 Documentation
 -------------
@@ -37,7 +37,7 @@ The source code is completely documented, and `Example.ck` is a basic demo.
 Troubleshooting
 ---------------
 
-- Ensure that your MIDI controller is transmitting on the proper MIDI channel.
+- Ensure that your MIDI device is transmitting on the proper MIDI channel.
 - Use `MIDIFlower.log(true);` to see if MIDIFlower is receiving MIDI data.
 
 License
