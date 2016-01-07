@@ -1,4 +1,4 @@
-class Example extends MIDIFlowerPetal
+class Demo extends MIDIFlowerPetal
 {
     // Respond to a MIDI Note On message.
     function void noteOn(int key, int velocity)
@@ -16,8 +16,8 @@ class Example extends MIDIFlowerPetal
 }
 
 // instantiate instrument
-Example e;
+Demo d;
 // assign instrument to MIDI channel
-MIDIFlower.assign(e, MIDI.CHANNEL_1);
+MIDIFlower.assign(d, MIDI.CHANNEL_1);
 // log MIDI messages to console
 MIDIFlower.log(true);

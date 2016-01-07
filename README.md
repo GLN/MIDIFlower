@@ -30,7 +30,7 @@ In detail, and assuming use of [miniAudicle](http://chuck.stanford.edu/release/)
 Documentation
 -------------
 
-The source code is completely documented, and `Example.ck` is a basic demo.
+The source code is completely documented, and `Demo.ck` is a basic implementation.
 
 Troubleshooting
 ---------------
