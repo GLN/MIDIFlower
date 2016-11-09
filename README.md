@@ -20,7 +20,7 @@ Using MIDIFlower is simple:
 In detail, and assuming use of [miniAudicle](http://chuck.stanford.edu/release/):
 
 - Set your MIDI device's port number in `Device.ck` (see miniAudicle's Device Browser for this number).
-- Create a class and inherit from `MIDIFlowerPetal.ck`.
+- Create a class and inherit from `MIDIFlowerPetal`.
 - Implement the MIDI messages you wish to respond to by overriding the corresponding methods in `MIDIFlowerPetal.ck`. There are eight different MIDI messages and they're all optional.
 - Instantiate your instrument and `MIDIFlower.assign();` it to one of 16 MIDI channels. You may assign more than one instrument to the same channel for multi-timbral performance.
 - Add Shred: `initialize.ck`.
